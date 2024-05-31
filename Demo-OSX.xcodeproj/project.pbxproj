@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		323C2E29218437C600741D80 /* Mozilla_Firefox_logo_2013.svg in Resources */ = {isa = PBXBuildFile; fileRef = 323C2E28218437C600741D80 /* Mozilla_Firefox_logo_2013.svg */; };
-		32B5A1E4217333C200CAA60C /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B5A1DD217333C200CAA60C /* CocoaLumberjack.framework */; };
-		32B5A1E6217333C800CAA60C /* CocoaLumberjack.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 32B5A1DD217333C200CAA60C /* CocoaLumberjack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		32C4FD3A2173976C00FBEDBF /* radialGradientTest.svg in Resources */ = {isa = PBXBuildFile; fileRef = 32C4FCF52173976C00FBEDBF /* radialGradientTest.svg */; };
 		32C4FD3B2173976C00FBEDBF /* g-element-applies-rotation.svg in Resources */ = {isa = PBXBuildFile; fileRef = 32C4FCF62173976C00FBEDBF /* g-element-applies-rotation.svg */; };
 		32C4FD3C2173976C00FBEDBF /* Blank_Map-Africa.svg in Resources */ = {isa = PBXBuildFile; fileRef = 32C4FCF72173976C00FBEDBF /* Blank_Map-Africa.svg */; };
@@ -157,41 +155,6 @@
 			remoteGlobalIDString = 321EAA612171EC8700640504;
 			remoteInfo = "SVGKitFramework-OSX";
 		};
-		55018B271B24E7F800936DF7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 556427B71A4B9E5D006A7269 /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DCB3185114EB418E001CFBEE;
-			remoteInfo = CocoaLumberjack;
-		};
-		55018B291B24E7F800936DF7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 556427B71A4B9E5D006A7269 /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 18F3BF0F1A81D8B700692297;
-			remoteInfo = CocoaLumberjackSwift;
-		};
-		55018B2B1B24E7F800936DF7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 556427B71A4B9E5D006A7269 /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 18F3BFA71A81DF5600692297;
-			remoteInfo = "CocoaLumberjack-iOS";
-		};
-		55018B2D1B24E7F800936DF7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 556427B71A4B9E5D006A7269 /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 18F3BFC21A81DFA200692297;
-			remoteInfo = "CocoaLumberjackSwift-iOS";
-		};
-		55018B2F1B24E7F800936DF7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 556427B71A4B9E5D006A7269 /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 18F3BFD71A81E06E00692297;
-			remoteInfo = "CocoaLumberjack-iOS-Static";
-		};
 		55018B311B24E7F800936DF7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 556427B71A4B9E5D006A7269 /* Lumberjack.xcodeproj */;
@@ -219,34 +182,6 @@
 			proxyType = 2;
 			remoteGlobalIDString = 18F3BFF21A81E0C700692297;
 			remoteInfo = iOSLibStaticTest;
-		};
-		5529EC381DA85C66006A9210 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 556427B71A4B9E5D006A7269 /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 19190EDE1B84D812008D059E;
-			remoteInfo = "CocoaLumberjack-watchOS";
-		};
-		5529EC3A1DA85C66006A9210 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 556427B71A4B9E5D006A7269 /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 19190EEB1B84D826008D059E;
-			remoteInfo = "CocoaLumberjackSwift-watchOS";
-		};
-		5529EC3C1DA85C66006A9210 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 556427B71A4B9E5D006A7269 /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 19D90B261BBFA9DB00947169;
-			remoteInfo = "CocoaLumberjack-tvOS";
-		};
-		5529EC3E1DA85C66006A9210 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 556427B71A4B9E5D006A7269 /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 19D90B351BBFAA7500947169;
-			remoteInfo = "CocoaLumberjackSwift-tvOS";
 		};
 		5529EC401DA85C66006A9210 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -279,7 +214,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				32EE37932173434B00A23278 /* SVGKit.framework in Copy Frameworks */,
-				32B5A1E6217333C800CAA60C /* CocoaLumberjack.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,7 +222,6 @@
 
 /* Begin PBXFileReference section */
 		323C2E28218437C600741D80 /* Mozilla_Firefox_logo_2013.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Mozilla_Firefox_logo_2013.svg; sourceTree = "<group>"; };
-		32B5A1DD217333C200CAA60C /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = "3rd-party-frameworks/CocoaLumberjack-2.2.0/Mac/CocoaLumberjack.framework"; sourceTree = "<group>"; };
 		32C4FCF52173976C00FBEDBF /* radialGradientTest.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = radialGradientTest.svg; sourceTree = "<group>"; };
 		32C4FCF62173976C00FBEDBF /* g-element-applies-rotation.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "g-element-applies-rotation.svg"; sourceTree = "<group>"; };
 		32C4FCF72173976C00FBEDBF /* Blank_Map-Africa.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Blank_Map-Africa.svg"; sourceTree = "<group>"; };
@@ -358,7 +291,6 @@
 		32C4FD392173976C00FBEDBF /* heart.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = heart.svg; sourceTree = "<group>"; };
 		32EE37792173431300A23278 /* SVGKit-iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "SVGKit-iOS.xcodeproj"; sourceTree = "<group>"; };
 		55018B4B1B24E95700936DF7 /* Licenses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Licenses.plist; path = "Demo-Samples/Licenses.plist"; sourceTree = SOURCE_ROOT; };
-		556427B71A4B9E5D006A7269 /* Lumberjack.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Lumberjack.xcodeproj; path = Source/Vendor/CocoaLumberjack/Lumberjack.xcodeproj; sourceTree = "<group>"; };
 		55C362CA1782208700BA24FA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		55D8EE2417628A71009C25F1 /* Demo-OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo-OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55D8EE2717628A71009C25F1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -387,7 +319,6 @@
 			files = (
 				32EE37922173434B00A23278 /* SVGKit.framework in Frameworks */,
 				32EE37912173433B00A23278 /* SVGKit.framework in Frameworks */,
-				32B5A1E4217333C200CAA60C /* CocoaLumberjack.framework in Frameworks */,
 				55D8EE2817628A71009C25F1 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -509,15 +440,6 @@
 		55018B1B1B24E7F700936DF7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				55018B281B24E7F800936DF7 /* CocoaLumberjack.framework */,
-				55018B2A1B24E7F800936DF7 /* CocoaLumberjackSwift.framework */,
-				55018B2C1B24E7F800936DF7 /* CocoaLumberjack.framework */,
-				55018B2E1B24E7F800936DF7 /* CocoaLumberjackSwift.framework */,
-				55018B301B24E7F800936DF7 /* libCocoaLumberjack.a */,
-				5529EC391DA85C66006A9210 /* CocoaLumberjack.framework */,
-				5529EC3B1DA85C66006A9210 /* CocoaLumberjackSwift.framework */,
-				5529EC3D1DA85C66006A9210 /* CocoaLumberjack.framework */,
-				5529EC3F1DA85C66006A9210 /* CocoaLumberjackSwift.framework */,
 				55018B321B24E7F800936DF7 /* FmwkTest.app */,
 				55018B341B24E7F800936DF7 /* SwiftTest.app */,
 				55018B361B24E7F800936DF7 /* iOSSwiftTest.app */,
@@ -552,7 +474,6 @@
 		55D8EE2617628A71009C25F1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				32B5A1DD217333C200CAA60C /* CocoaLumberjack.framework */,
 				556427B71A4B9E5D006A7269 /* Lumberjack.xcodeproj */,
 				55C362CA1782208700BA24FA /* QuartzCore.framework */,
 				55D8EE2717628A71009C25F1 /* Cocoa.framework */,
@@ -715,41 +636,6 @@
 			remoteRef = 32EE378F2173431300A23278 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		55018B281B24E7F800936DF7 /* CocoaLumberjack.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CocoaLumberjack.framework;
-			remoteRef = 55018B271B24E7F800936DF7 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		55018B2A1B24E7F800936DF7 /* CocoaLumberjackSwift.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CocoaLumberjackSwift.framework;
-			remoteRef = 55018B291B24E7F800936DF7 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		55018B2C1B24E7F800936DF7 /* CocoaLumberjack.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CocoaLumberjack.framework;
-			remoteRef = 55018B2B1B24E7F800936DF7 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		55018B2E1B24E7F800936DF7 /* CocoaLumberjackSwift.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CocoaLumberjackSwift.framework;
-			remoteRef = 55018B2D1B24E7F800936DF7 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		55018B301B24E7F800936DF7 /* libCocoaLumberjack.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libCocoaLumberjack.a;
-			remoteRef = 55018B2F1B24E7F800936DF7 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		55018B321B24E7F800936DF7 /* FmwkTest.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
@@ -776,34 +662,6 @@
 			fileType = wrapper.application;
 			path = iOSLibStaticTest.app;
 			remoteRef = 55018B371B24E7F800936DF7 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		5529EC391DA85C66006A9210 /* CocoaLumberjack.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CocoaLumberjack.framework;
-			remoteRef = 5529EC381DA85C66006A9210 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		5529EC3B1DA85C66006A9210 /* CocoaLumberjackSwift.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CocoaLumberjackSwift.framework;
-			remoteRef = 5529EC3A1DA85C66006A9210 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		5529EC3D1DA85C66006A9210 /* CocoaLumberjack.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CocoaLumberjack.framework;
-			remoteRef = 5529EC3C1DA85C66006A9210 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		5529EC3F1DA85C66006A9210 /* CocoaLumberjackSwift.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CocoaLumberjackSwift.framework;
-			remoteRef = 5529EC3E1DA85C66006A9210 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		5529EC411DA85C66006A9210 /* watchOSSwiftTest.app */ = {
@@ -1038,7 +896,6 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/3rd-party-frameworks/CocoaLumberjack-2.2.0/Mac",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SVGKitLibrary/Demo-OSX/Demo-OSX-Prefix.pch";
@@ -1056,7 +913,6 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/3rd-party-frameworks/CocoaLumberjack-2.2.0/Mac",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SVGKitLibrary/Demo-OSX/Demo-OSX-Prefix.pch";
